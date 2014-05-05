@@ -1,0 +1,13 @@
+img {
+	display: block;
+}
+img[title="ja"], img[title="nej"] {
+	width: 16px;
+	display: inline;
+}
+
+.strong {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center !important;
+}

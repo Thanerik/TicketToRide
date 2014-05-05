@@ -1,0 +1,222 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>Ticket to Ride - Regler</title>
+
+    <meta name="viewport" content = "width = device-width, initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="icon57.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="icon72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="icon114.png"/>
+
+    <link href="css/footable.core.css" rel="stylesheet" type="text/css"/>
+    <link href="css/footable.standalone.css" rel="stylesheet" type="text/css"/>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+    <script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="js/footable.js" type="text/javascript"></script>
+    <script src="js/footable.sort.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('.footable').footable({
+            addRowToggle: false
+        });
+    });
+    </script>
+
+</head>
+<body>
+
+<table class="footable table">
+  <thead>
+    <tr>
+      <th data-class="strong" >Land</th>
+      <th data-class="strong">Udvidelse</th>
+      <th>Personer</th>
+      <th data-hide="phone,tablet">Antal tog</th>
+      <th data-hide="phone,tablet" data-type="numeric">Station?</th>
+      <th data-hide="phone,tablet">Dobbeltspor</th>
+      <th data-hide="all">Rutekort type</th>
+      <th data-hide="phone,tablet">Start Rutekort</th>
+      <th data-hide="phone,tablet">Spil Rutekort</th>
+      <th data-hide="phone,tablet">Express (Længest) point</th>
+      <th data-hide="all">Special</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>USA<img title="USA" src="images/ourgames_tt.jpg"></td>
+      <td>-</td>
+      <td>2-5</td>
+      <td>45</td>
+      <td data-value="1"><img src="images/nej.png" title="nej"></td>
+      <td>4-5 personer</td>
+      <td>Alle kort <u>uden</u> "1910" (34 stk.)</td>
+      <td>3 - og behold mindst 2</td>
+      <td>3 - og behold mindst 1</td>
+      <td>Express (Længest)</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>USA<img title="USA" src="images/ourgames_tt.jpg"></td>
+      <td>1910<img title="USA" src="images/ourgames_tt_1910.jpg"></td>
+      <td>2-5</td>
+      <td>45</td>
+      <td data-value="1"><img src="images/nej.png" title="nej"></td>
+      <td>4-5 personer</td>
+      <td>Alle kort <u>med</u> "1910" (35 stk.)</td>
+      <td>3 - og behold mindst 2</td>
+      <td>3 - og behold mindst 1</td>
+      <td>Globetrotter (Flest byer)</td>
+      <td>Husk anderledes bonus!</td>
+    </tr>
+    <tr>
+      <td>USA<img title="USA" src="images/ourgames_tt.jpg"></td>
+      <td>MEGA<img title="USA" src="images/ourgames_tt_1910.jpg"></td>
+      <td>2-5</td>
+      <td>45</td>
+      <td data-value="1"><img src="images/nej.png" title="nej"></td>
+      <td>4-5 personer</td>
+      <td><u>Alle</u> kort (69 stk.)</td>
+      <td>5 - og behold mindst 3</td>
+      <td>4 - og behold mindst 1</td>
+      <td>Express (Længest)</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>USA<img title="USA" src="images/ourgames_tt.jpg"></td>
+      <td>Storbyer<img title="USA" src="images/ourgames_tt_1910.jpg"></td>
+      <td>2-5</td>
+      <td>45</td>
+      <td data-value="1"><img src="images/nej.png" title="nej"></td>
+      <td>4-5 personer</td>
+      <td>Alle kort <u>med</u> "Big Cities" (35 stk.)</td>
+      <td>4 - og behold mindst 2</td>
+      <td>4 - og behold mindst 1</td>
+      <td>Express (Længest)</td>
+      <td>Kortet med USA's storbyer lægges frem så alle kan se det.</td>
+    </tr>
+    <tr>
+      <td>Europa<img title="EU" src="images/ourgames_te.jpg"></td>
+      <td>-</td>
+      <td>2-5</td>
+      <td>45</td>
+      <td data-value="2"><img src="images/ja.png" title="ja"></td>
+      <td>4-5 personer</td>
+      <td>Alle kort <u>uden</u>"1912". Brug dem med blå cirkel.<br>Kortene deles op i lang og alm. ruter.</td>
+      <td>1 lang + 2 alm - og behold mindst 2</td>
+      <td>3 - og behold mindst 1</td>
+      <td>Express (Længest)</td>
+      <td>Færge + Tunnel</td>
+    </tr>
+    <tr>
+      <td>Europa<img title="EU" src="images/ourgames_te.jpg"></td>
+      <td>Plus<img title="EU" src="images/ourgames_te_1912.jpg"></td>
+      <td>2-5</td>
+      <td>45</td>
+      <td data-value="2"><img src="images/ja.png" title="ja"></td>
+      <td>4-5 personer</td>
+      <td>Alle kort med blå cirkel + 19 alm. kort med "1912".<br>Kortene deles op i lang og alm. ruter.</td>
+      <td>1 lang + 2 alm - og behold mindst 2</td>
+      <td>3 - og behold mindst 1</td>
+      <td>Express (Længest)</td>
+      <td>Færge + Tunnel</td>
+    </tr>
+    <tr>
+      <td>Europa<img title="EU" src="images/ourgames_te.jpg"></td>
+      <td>MEGA<img title="EU" src="images/ourgames_te_1912.jpg"></td>
+      <td>2-5</td>
+      <td>45</td>
+      <td data-value="2"><img src="images/ja.png" title="ja"></td>
+      <td>4-5 personer</td>
+      <td><u>Alle</u> kort.<br>Kortene deles op i lang og alm. ruter.</td>
+      <td>2 lang + 5 alm. Skal beholde <u>max.</u> 1 lang.<br>Hvis ingen lang kort så skal mindst 3 alm.<br>Hvis 1 lang kort, så skal mindst 2 alm.</td>
+      <td>3 - og behold mindst 1</td>
+      <td>Express (Længest)</td>
+      <td>Færge + Tunnel</td>
+    </tr>
+    <tr>
+      <td>Europa<img title="EU" src="images/ourgames_te.jpg"></td>
+      <td>Storbyer<img title="EU" src="images/ourgames_te_1912.jpg"></td>
+      <td>2-5</td>
+      <td>45</td>
+      <td data-value="2"><img src="images/ja.png" title="ja"></td>
+      <td>4-5 personer</td>
+      <td>Alle kort <u>med</u> storby-logo.<br>Der er ingen lange rutekort med!</td>
+      <td>5 - og behold mindst 2</td>
+      <td>4 - og behold mindst 1.</td>
+      <td>Express (Længest)</td>
+      <td>Færge + Tunnel</td>
+    </tr>
+    <tr>
+      <td>Norden<img title="Norden" src="images/ourgames_tn.jpg"></td>
+      <td>-</td>
+      <td>personer</td>
+      <td>tog</td>
+      <td>station</td>
+      <td>DS</td>
+      <td>rutekort type</td>
+      <td>start RK</td>
+      <td>spil RK</td>
+      <td>Express (Længest)</td>
+      <td>special</td>
+    </tr>
+    <tr>
+      <td>Switzerland<img title="Switzerland" src="images/ourgames_tt_india.jpg"></td>
+      <td>-</td>
+      <td>2-3</td>
+      <td>40</td>
+      <td data-value="1"><img src="images/nej.png" title="nej"></td>
+      <td>3 personer</td>
+      <td>Almindelige</td>
+      <td>5 - og behold mindst 2</td>
+      <td>3 - og behold mindst 1</td>
+      <td>Express (Længest)</td>
+      <td>OBS! Kun 40 tog.<br>Lokomotiv (Joker) kan <u>kun</u> bruges til tunnel! Men der kan tages 2 af dem synlig af de 5 togkort på bordet.</td>
+    </tr>
+    <tr>
+      <td>Indien<img title="Indien" src="images/ourgames_tt_india.jpg"></td>
+      <td>-</td>
+      <td>2-4</td>
+      <td>45</td>
+      <td data-value="1"><img src="images/nej.png" title="nej"></td>
+      <td>4 personer</td>
+      <td>Almindelige</td>
+      <td>4 - og behold mindst 2</td>
+      <td>3 - og behold mindst 1</td>
+      <td>Express (Længest) + Mandala (Cirkler)</td>
+      <td>Mandala betyder at man får point hvis der er mere end én strækning mellem de to endestationer i rutekortet. De to strækning må ikke deles om de samme ruter</td>
+    </tr>
+    <tr>
+      <td>Legendary Asia<img title="L-Asia" src="images/ourgames_tt_asia.jpg"></td>
+      <td>-</td>
+      <td>2-5</td>
+      <td>45</td>
+      <td data-value="1"><img src="images/nej.png" title="nej"></td>
+      <td>4-5 personer</td>
+      <td>Almindelige</td>
+      <td>1 lang + 3 alm.<br>Skal beholde den lange og mindst 2 alm kort.</td>
+      <td>3 - og behold mindst 1</td>
+      <td>Express (Længest)</td>
+      <td>Togfelt på kortet med <u>kryds</u> betyder at du skal fjerne toget, lægge det i "graven" og få 2 point for toget og lægge en ny tog på feltet.</td>
+    </tr>
+    <tr>
+      <td>Asia<img title="Asia" src="images/ourgames_tt_asia.jpg"></td>
+      <td>-</td>
+      <td>4-6</td>
+      <td>45 + 9 ekstra</td>
+      <td>station</td>
+      <td>DS</td>
+      <td>Almindelige</td>
+      <td>start RK</td>
+      <td>spil RK</td>
+      <td>Express (Længest)</td>
+      <td>Holdspil i par.</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
